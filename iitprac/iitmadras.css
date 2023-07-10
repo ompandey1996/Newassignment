@@ -1,0 +1,252 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 10px;
+}
+p,h1{
+    margin-bottom: 0px;
+}
+body{
+    background-color: #b5d8ff  ;
+}
+.container{
+    border-radius:20px;
+   
+}
+.left-menu{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.right-menu{
+    border-top-right-radius: 20px;
+}
+.left-menu-icons .icon2{
+    width:15px;
+    height:6px;
+    background-color: white;
+    border-radius: 10px;  
+}
+.fst-notification p{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.sec-notification p{
+    font-size: 0.6rem;
+}
+.temp-degree h1{
+    font-size: 4rem;
+}
+.deg-text{
+    font-size: 1rem;
+}
+.climate-image {
+    width:88%;
+    border-bottom-left-radius: 20px;   
+}
+
+
+.climate-image img{
+    width:100%;
+    height:33.5rem;
+    border-bottom-left-radius: 20px;    
+}
+.right-menu{
+    background-color:rgb(228,241,255);
+    border-radius:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transform: translateX(-5px);
+    
+    
+  
+}
+.right-menu-heading,h1{
+    font-size: 1.2rem;
+}
+.right-menu-heading p{
+    font-size: 1rem;
+}
+.right-menuimg{
+    width:2.2rem;
+    height:2.2rem;
+    /* border:1px solid red; */
+    border-radius:5px;
+   
+}
+.right-menuimg img{
+    display: block;
+    width:100%;
+    height:2.2rem;
+    border-radius:5px;
+     
+}
+.thirdsection-heading h1{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.humid h1{
+    font-size:0.7rem;
+    margin-bottom: 0px;
+}
+.humid-icon{
+    /* background-color:#5c9ce5; */
+    padding:1px;
+    border-radius: 10px;
+}
+.fa-droplet{
+    font-size: 0.7rem;
+}
+.subgood{
+    height:0.5rem;
+     width:3rem;
+     background-color:rgb(92,156,229) ;
+     border-radius: 10px;
+}
+.subgoods{
+border-collapse:collapse;
+}
+.subbad1{
+ width:1rem;
+ height:0.5rem;
+ background-color:rgb(92,156,229) ;
+     border-radius: 10px;
+}
+.subbad2{
+    width:2rem;
+ height:0.5rem;
+ background-color:gray ;
+     border-radius: 10px;
+
+}
+.container-cards{
+    border-radius: 10px;
+}
+
+.color-sky{
+    height:0.5rem;
+    width:1rem;
+    background-color:rgb(92,156,229) ;
+    border-radius: 10px;
+ }
+ .card-2-second-text{
+    font-size:1.2rem;
+
+ }
+ .no-color{
+    height:0.5rem;
+    width:0.5rem;
+    background-color: gray;
+    border-radius: 10px;
+
+ }
+ .col-3{
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+ }
+ .card-3-subgraph{
+    height:0.5rem;
+    width:2rem;
+    background-color:rgb(92,156,229) ;
+    border-radius: 10px;
+
+ }
+ .sub-text{
+  margin-bottom: 0px;
+ }
+ .card-3-subgraph-lesscolor{
+    border-radius: 10px;
+ }
+ .card-3-subgraph-color{
+    height:0.5rem;
+    width:2rem;
+    background-color:gray ;
+    border-radius:10px;
+
+ }
+ .card-3-subgraph-no-color{
+    height: 0.5rem;
+        width: 2rem;
+    background-color:rgb(92,156,229) ;
+    border-radius:10px;
+
+ }
+ 
+
+ .card-4-graph-color{
+    height: 0.5rem;
+    width: 3rem;
+background-color:rgb(92,156,229) ;
+border-radius: 10px;
+
+
+ }
+ .card-4-graph-nocolor{
+    height: 0.5rem;
+    width: 3rem;
+/* background-color:rgb(92,156,229) ; */
+background-color:gray;
+border-radius: 10px;
+
+ }
+ .second-section{
+    border: 2px solid red;
+    border-radius:15px;
+ }
+ /* 
+ 
+ /* section2 button*/ 
+ .row-second-section{
+    border-radius:5px;
+ }
+ .section-2 button{
+    color:black;
+   
+text-align: center;
+
+ }
+ .degree {
+    font-size: 1 rem;
+ }
+ .temp-line{
+    width:0.01rem;
+    
+   /* color:black; */
+   border:0.5px solid black;
+ }
+ .temp-degrees-container{
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+  
+ }
+ @media(max-width:890px){
+    html{
+        font-size:10px;
+    }
+    .climate-image img{
+        height:72rem;
+    }
+    .container-cards{
+        margin-bottom:2%;
+     }
+     .temp-degree h1{
+        font-size:2.5rem;
+     }
+}
+ 
+ @media(max-width:480px){
+    .container-cards{
+       margin-bottom:20%;
+    }
+    .temp-degree h1{
+       font-size:1.5rem;
+    }
+
+ }
+ 
